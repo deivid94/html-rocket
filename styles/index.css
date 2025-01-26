@@ -1,13 +1,5 @@
-:root {
-    --bg-color:rebeccapurple;
-}
-body {
-    background-color: var(--bg-color);
-    color:  white;
-}
+@import url(global.css);
+@import url(utility.css);
+@import url(hero.css)
 
-@media (min-width: 576px){
-    :root {
-        --bg-color: orangered;
-    }
-}
+

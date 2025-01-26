@@ -1,0 +1,9 @@
+#hero {
+    background: var(--bg-color);
+    color: var(--text-color-secondary);
+    
+}
+
+@media (min-with) {
+
+}

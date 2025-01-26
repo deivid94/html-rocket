@@ -1,0 +1,36 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.grid  {
+    display: grid;
+}
+
+
+.grid-flow-col-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-flow-col-3 {
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.grid-flow-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-flow-row-4 {
+    grid-template-rows: (repeat(4, 2fr));
+}
+.gap-24{
+    gap: 24px;
+}
+
+.content-center {
+    align-content: center;
+
+}
